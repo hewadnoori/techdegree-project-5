@@ -1,0 +1,10 @@
+.grid{
+display: grid;
+justify-content: center;
+align-content: center;
+height:100vh;
+grid-template-columns: 200px 200px 200px 200px;
+grid-template-rows: auto auto auto;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
