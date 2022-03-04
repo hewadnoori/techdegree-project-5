@@ -1,18 +1,25 @@
 .grid{
-display: grid;
-justify-content: center;
-align-content:flex-start;
-height:90vh;
-grid-template-columns: 200px 200px 200px 200px;
-grid-template-rows: auto auto auto;
-grid-column-gap: 20px;
-grid-row-gap: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: flex-start;
+    height: 90vh;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
 }
-
 #search-space{
     text-align: center;
-    margin: 20px;
+    margin: 25px;
 }
+
 #searchbar{
-    
+    width: 500px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgba(215, 226, 211, 0.479);
+}
+#searchbar::placeholder{
+    padding-left: 15px;
 }
