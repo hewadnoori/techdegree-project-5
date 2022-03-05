@@ -13,13 +13,17 @@
     margin: 25px;
 }
 
-#searchbar{
-    width: 500px;
+#search{
+    width: 30%;
     height: 40px;
     font-size: 15px;
     border-radius: 5px;
     border-color: rgba(215, 226, 211, 0.479);
 }
-#searchbar::placeholder{
-    padding-left: 15px;
+
+input[type=search]{
+    text-indent: 20px;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
 }
+
