@@ -7,51 +7,53 @@
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="js/baguetteBox.css">
 </head>
 <body>
     <div id = "search-space">
         <input type="text" name="search" id="searchbar" onkeyup="search_locations" placeholder="Search locations...">
     </div>
     <main>
-        <div class="grid">
-            <div class="grid-item grid-item-1">
-                <img src="img/thumbnails/01.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-2">
-                <img src="img/thumbnails/02.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-3">
-                <img src="img/thumbnails/03.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-4">
-                <img src="img/thumbnails/04.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-5">
-                <img src="img/thumbnails/05.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-6">
-                <img src="img/thumbnails/06.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-7">
-                <img src="img/thumbnails/07.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-8">
-                <img src="img/thumbnails/08.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-9">
-                <img src="img/thumbnails/09.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-10">
-                <img src="img/thumbnails/10.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-11">
-                <img src="img/thumbnails/11.jpg" alt="">
-            </div>
-            <div class="grid-item grid-item-12">
-                <img src="img/thumbnails/12.jpg" alt="">
-            </div>
-            
+        <div class="gallery">
+            <a href="img/01.jpg" data-caption="image caption">
+                <img src="img/thumbnails/01.jpg" alt="first image">
+            </a>
+            <a href="img/02.jpg">
+                <img src="img/thumbnails/02.jpg" alt="second image">
+            </a>
+            <a href="img/03.jpg">
+                <img src="img/thumbnails/03.jpg" alt="third image">
+            </a>
+            <a href="img/04.jpg">
+                <img src="img/thumbnails/04.jpg" alt="fourth image">
+            </a>
+            <a href="img/05.jpg">
+                <img src="img/thumbnails/05.jpg" alt="fifth image">
+            </a>
+            <a href="img/06.jpg">
+                <img src="img/thumbnails/06.jpg" alt="sixth image">
+            </a>
+            <a href="img/07.jpg">
+                <img src="img/thumbnails/07.jpg" alt="seventh image">
+            </a>
+            <a href="img/08.jpg">
+                <img src="img/thumbnails/08.jpg" alt="eight image">
+            </a>
+            <a href="img/09.jpg">
+                <img src="img/thumbnails/09.jpg" alt="ninth image">
+            </a>
+            <a href="img/10.jpg">
+                <img src="img/thumbnails/10.jpg" alt="tenth image">
+            </a>
+            <a href="img/11.jpg">
+                <img src="img/thumbnails/11.jpg" alt="eleventh image">
+            </a>
+            <a href="img/12.jpg">
+                <img src="img/thumbnails/12.jpg" alt="twelfth image">
+            </a>
         </div>
     </main>
+    <script src="js/baguetteBox.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
